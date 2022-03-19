@@ -15,7 +15,7 @@ class MovAdapter(
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): BooksViewHolder {
+    ): MovAdapter.BooksViewHolder {
         return BooksViewHolder(
             ItemBooksBinding.inflate(
                 LayoutInflater.from(parent.context),
@@ -25,7 +25,7 @@ class MovAdapter(
         )
     }
 
-    override fun onBindViewHolder(holder: BooksViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: MovAdapter.BooksViewHolder, position: Int) {
         holder.onBind(list[position])
     }
 

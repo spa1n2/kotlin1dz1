@@ -1,4 +1,4 @@
-package com.example.kotlin1dz1.presentation.ui.fragments
+package com.example.kotlin1dz1.presentation.ui.fragments.books
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

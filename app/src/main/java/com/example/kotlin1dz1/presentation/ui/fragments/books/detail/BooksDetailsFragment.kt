@@ -1,4 +1,4 @@
-package com.example.kotlin1dz1.presentation.ui.fragments
+package com.example.kotlin1dz1.presentation.ui.fragments.books.detail
 
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
@@ -7,6 +7,7 @@ import com.example.kotlin1dz1.R
 import com.example.kotlin1dz1.databinding.FragmentBooksDetailsBinding
 
 import com.example.kotlin1dz1.presentation.base.BaseFragment
+import com.example.kotlin1dz1.presentation.ui.fragments.books.MovViewModel
 import kotlinx.coroutines.launch
 
 class BooksDetailsFragment : BaseFragment<FragmentBooksDetailsBinding>(
