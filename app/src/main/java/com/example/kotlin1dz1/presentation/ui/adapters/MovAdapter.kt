@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.kotlin1dz1.databinding.ItemBooksBinding
+import com.example.kotlin1dz1.models.BookModel
 import com.example.kotlin1dz1.models.LanguageModel
 
 class MovAdapter(
@@ -44,7 +45,7 @@ class MovAdapter(
             binding.myText1.text = bookModel.title
             binding.myImageView.setImageResource(bookModel.image)
             binding.root.setOnClickListener {
-                onItemClick(bookModel)
+                onItemClick(list[absoluteAdapterPosition])
             }
         }
     }
